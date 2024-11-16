@@ -10,6 +10,7 @@
 #Head .nav{
     display: flex;
     text-align: left;
+    flex-wrap: wrap;
     border: 1px solid black;
     /* background-color: black; */
 }
@@ -17,18 +18,21 @@
     display: flex;
     text-align: right;
     justify-content: center;
+    flex-wrap: wrap;
 }
-/* main part starts from here  */
+                   /* main part starts from here  */
 
  #navbar .navi{
     display: flex;
     justify-content: space-between;
     margin-left: 130px;
+    flex-wrap: wrap;
  }
  #navbar .navi ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    flex-wrap: wrap;
     gap: 75px;
  }
  #navbar .navi ul li a{
@@ -52,24 +56,26 @@
    display: block;
    justify-content: center;
    text-align: center;
+   flex-wrap: wrap;
    margin-top: 18%;
    font-size: 60px;
  }
  #sec1{
    background-image: url(image/first\ image.jpg);
  }
- /* sec1 ends here  */
+                /* sec1 ends here  */
 
- /* sec2 starts here  */
+                /* sec2 starts here  */
 
 #about {
    width: 100%;
-   height: 100vh;
+   height: 70vh;
 }
 #div2 {
    display: flex;
    justify-content: center;
    text-align: center;
+   flex-wrap: wrap;
 }
 #div2 .image2{
  border: 1px solid black;
@@ -86,17 +92,20 @@
    display: block;
    justify-content: left;
    text-align: left;
+   flex-wrap: wrap;
 }
 #div2 .le{
    display: block;
    justify-content: left;
+   flex-wrap: wrap;
 }
 #div2 .ri{
    display: flex;
    justify-content: right;
+   flex-wrap: wrap;
    margin-right: 120px;
 }
-/* } sec3 starts frem here  */
+                /* } sec3 starts frem here  */
 
 #sec3{
    width: 100%;
@@ -119,8 +128,8 @@
    border: 1px solid black;
 }
 
-/* sec3 ends here  */
-/* sec4 starts here  */
+                  /* sec3 ends here  */
+                  /* sec4 starts here  */
 #sec4{
    width: 100%;
    height: 100vh;
@@ -136,6 +145,7 @@
    width: 850px;
    height: 350px;
    position: absolute;
+   flex-wrap: wrap;
    left: 30px;
 }
 #sec4 .im2{
@@ -144,6 +154,7 @@
    width: 500px;
    height: 670px;
    position: absolute;
+   flex-wrap: wrap;
    right: 40px;
 }
 #sec4 .im3{
@@ -163,8 +174,8 @@
    top: 515px;
 }
 
-/* sec4 ends here  */
-/* sec5 starts here  */
+                 /* sec4 ends here  */
+                 /* sec5 starts here  */
 #sec5{
    width: 100%;
    height: 100vh;
@@ -174,10 +185,12 @@
    justify-content: center;
    text-align: center;
    font-size: 30px;
+   flex-wrap: wrap;
 }
 #sec5 .wq{
  display: flex;
  justify-content: space-evenly;
+ flex-wrap: wrap;
  gap: 10px;
 }
 #sec5 .wq .wqw{
@@ -196,8 +209,8 @@
    margin-top: 75%;
 } */
 
-/* sec5 ends here  */
-/* sec6 starts here  */
+                        /* sec5 ends here  */
+                        /* sec6 starts here  */
 
 #sec6{
    width: 100%;
@@ -225,8 +238,8 @@
  text-align: left;
 }
 
- /* sec6 ends here  */
- /* sec7 starts here  */
+                /* sec6 ends here  */
+                /* sec7 starts here  */
 
  #sec7{
    width: 100%;
@@ -238,14 +251,95 @@
  }
  #sec7 .be{
    display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
+   align-items: center;
    gap: 35px;
+   flex-wrap: wrap;
  }
  #sec7 .be .eb{
    border: 1px solid black;
    width: 350px;
    height: 250px;
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: auto ;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
  }
- 
+                         /* sec7 ends here  */
+                         /* sec8 starts here  */
+ #sec8{
+   width: 100%;
+   height: 80vh;
+ }
+ #ty{
+   font-size: 25px;
+   text-align: center;
+ }
+ #tu{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   flex-wrap: wrap;
+ }
+ #tu .tut{
+   border: 1px solid black;
+   width: 300px;
+   height: 450px;
+ }
+                    /* sec8 ends here  */
+                    /* sec9 starts here  */
+
+ #sec9{
+   width: 100%;
+   height: 80vh;
+ }
+#io{
+   font-size: 25px;
+   text-align: center;
+}
+#poi{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 30px;
+   flex-wrap: wrap;
+   margin-left: 60px;
+}
+#poi .iop{
+   border: 1px solid black;
+   width: 400px;
+   height: 300px;
+   text-align: center;
+   font-size: 25px;
+   color: rgb(243, 119, 17);
+   background-color: rgb(80, 238, 80);
+}
+#poi .iop .lio{
+   border-radius: 50%;
+   margin-top: 10px;
+}
+
+              /* sec9 ends here  */
+
+              /* footer starts here  */
+
+ #end{
+   width: 100%;
+   height: 50vh;
+   background-color: black;
+   flex-wrap: wrap;
+} 
+#ends{
+   display: flex;
+   justify-content: space-between;
+   text-align: left;
+   flex-wrap: wrap;
+   margin-left: 40px;
+   border: 1px solid black;
+   color: white;
+}
+#ends .ds .try{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
