@@ -276,17 +276,13 @@
    font-size: 25px;
    text-align: center;
  }
- #tu{
-   display: flex;
-   justify-content: center;
-   gap: 30px;
-   flex-wrap: wrap;
- }
- #tu .tut{
+#tu{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   width: 250px;
+   height: 400px;
    border: 1px solid black;
-   width: 300px;
-   height: 450px;
- }
+}
                     /* sec8 ends here  */
                     /* sec9 starts here  */
 
@@ -334,12 +330,40 @@
    justify-content: space-between;
    text-align: left;
    flex-wrap: wrap;
+   font-size: 20px;
    margin-left: 40px;
    border: 1px solid black;
    color: white;
+}
+#emg {
+   width: 150px;
+   height: 150px;
+   display: grid;
+   background-image: url(image/im8.jpg);
 }
 #ends .ds .try{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+ 
+}
+#last{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   flex-wrap: wrap;
+   color: white;
+   margin-top: 60px;
+   margin-left: 30px;
+
+}
+#last .lest{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 25px;
+}
+#last .lest a{
+   text-decoration: none;
+   color: aqua;
 }
