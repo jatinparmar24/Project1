@@ -305,34 +305,7 @@
 }
 
                  /* sec4 ends here  */
-                 /* sec5 starts here  */
-#sec5{
-   width: 100%;
-   height: 100vh;
-}
-#sec5 .qw{
-   display: block;
-   justify-content: center;
-   text-align: center;
-   font-size: 30px;
-   flex-wrap: wrap;
-}
-#sec5 .wq{
- display: flex;
- justify-content: space-evenly;
- flex-wrap: wrap;
- gap: 10px;
-}
-#sec5 .wq .wqw{
-   width: 382px;
-   height: 550px;
-   border: 1px solid black;
-   display: grid;
-   grid-template-columns: auto auto auto;
-}
-
-
-                        /* sec5 ends here  */
+ 
                         /* sec6 starts here  */
 
 #sec6{
@@ -509,6 +482,11 @@
 
   @media (min-width:250px) and (max-width:1000px){
 
+   body{
+      width: 100%;
+      
+   }
+
     #Head .nav{
       height: 15vh;
       justify-content: center;
@@ -536,8 +514,8 @@
       display: block;
     }
     #div2 .image2{
-      width: 60vh;
-      height: 40vh;
+      width: 57vh;
+      height: 38vh;
       margin-left: 1%;
       background-size: contain;
     }
@@ -549,12 +527,146 @@
     }
 
    #sec3{
-      height: 150vh;
+      height: 200vh;
    } 
    #break{
       display: grid;
       grid-template-columns: auto auto;
    }
+   #break .up{
+      height: 35vh;
+      width: 25vh;
+      font-size: 20px;
+   }
+#sec4{
+   height: 200vh;
+   display: block;
+   margin-bottom: 6%;
+}
+#sec4 .im1{
+   width: 50vh;
+   height: 50vh;
+   background-size: contain;
+   position: absolute;
+}
+#sec4 .im2{
+   display: block;
+   width: 50vh;
+   height: 55vh;
+   background-size: contain;
+   position: absolute;
+   top: 520px;
+   left: 27px;
+}
+#sec4 .im3{
+   display: block;
+   width: 50vh;
+   height: 35vh;
+   background-size: contain;
+   position: absolute;
+   top: 950px;
+   left: 27px;
+
+}
+#sec4 .im4{
+   display: block;
+   width: 50vh;
+   height: 35vh;
+   background-size: contain;
+   position: absolute;
+   top: 1230px;
+   left: 27px;
+}
+
+#sec6{
+   height: 110vh;
+}
+#bracket{
+   width: 55vh;
+   margin-left: 5%;
+   height: 100vh;
+}
+#bracket .em{
+   display: flex;
+   gap: 31px;
+}
+#bracket .em p{
+   font-size: 35px;
+}
+#bracket .em span{
+   display: none;
+}
+#bracket .em button{
+   position: absolute;
+   top: 612%;
+}
+
+#bracket .wo{
+   position: absolute;
+   top: 618%;
+   left: 5%;
+}
+#bracket .wo .ton{
+   width: 45vh;
+   height: 5vh;
+}
+#bracket .wo .not{
+   width: 45vh;
+}
+#bracket .wo button{
+   width: 45vh;
+}
+#bracket .wo button:hover{
+   color: black;
+   background-color: aqua;
+}
+#sec7{
+   height: 100vh;
+}
+#sec7 .er{
+   font-size: 25px;
+}
+
+#sec9{
+   height: 170vh;
+   margin-top: 380px;
+}
+#poi{
+   display: grid;
+   grid-template-columns: auto;
+   margin-left: 32px;
+}
+
+#end{
+   height: 110vh;
+}
+
+#ends .ds{
+   margin-top: 3%;
+}
+#ends .ssd{
+   margin-top: 3%;
+}
+
+#ends .sdd{
+   margin-top: 3%;
+}
+#ends .sdd input{
+   display: block;
+   width: 28vh;
+   height: 5vh;
+}
+#ends .sdd button{
+   width: 15vh;
+   height: 4vh;
+   color: black;
+   background-color: aqua;
+}
+#ends .sdd button:hover{
+   background-color: rgba(27, 246, 27, 0.86);
+}
+
+
 
 
   }
